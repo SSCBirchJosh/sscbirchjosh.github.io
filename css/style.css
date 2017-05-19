@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #B2211D;
+  color: #0D0C0B;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #B2211D;
+  color: #0D0C0B;
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #B2211D;
+  background: #0D0C0B;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #B2211D;
+  background: #0D0C0B;
 }
 
 ::selection {
   color: #fff;
-  background: #B2211D;
+  background: #0D0C0B;
 }
 
 #fh5co-header,
@@ -241,7 +241,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-features .feature-left .icon {
-  color: #B2211D;
+  color: #0D0C0B;
   display: table;
   text-align: center;
   width: 100px;
@@ -259,7 +259,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #B2211D !important;
+  color: #0D0C0B !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -309,8 +309,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-bg-dark {
-  background: #B2211D;
-  background: #B2211D;
+  background: #0D0C0B;
+  background: #0D0C0B;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -367,7 +367,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #B2211D;
+  color: #0D0C0B;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -534,7 +534,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #B2211D;
+  background-color: #0D0C0B;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -739,7 +739,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 270px;
-  background: #B2211D;
+  background: #0D0C0B;
   opacity: 0;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -1074,7 +1074,7 @@ input[type="text"] {
   width: 50px;
   height: 50px;
   display: table;
-  background: #ff9001;
+  background: #0D0C0B;
   color: #fff;
   text-align: center;
   -webkit-border-radius: 50%;
