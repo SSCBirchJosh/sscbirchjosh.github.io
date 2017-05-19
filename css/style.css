@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 #fh5co-features {
-  background: #B2211D;
+  background: #0D0C0B;
 }
 #fh5co-features h2 {
   color: #fff;
@@ -404,7 +404,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #B2211D;
+  background: #0D0C0B;
 }
 
 .fh5co-heading {
@@ -417,7 +417,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 40px;
   margin-bottom: 20px;
   line-height: 1.5;
-  color: #B2211D;
+  color: #0D0C0B;
 }
 .fh5co-heading p {
   font-size: 18px;
@@ -809,7 +809,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 54px;
   border: none !important;
   background: #fff;
-  color: #B2211D;
+  color: #0D0C0B;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1119,18 +1119,18 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: #B2211D;
+  background: #0D0C0B;
   color: #fff;
-  border: 2px solid #B2211D;
+  border: 2px solid #0D0C0B;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #B2211D !important;
-  border-color: #B2211D !important;
+  background: #0D0C0B !important;
+  border-color: #0D0C0B !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #B2211D;
-  border: 2px solid #B2211D;
+  color: #0D0C0B;
+  border: 2px solid #0D0C0B;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: #B2211D;
