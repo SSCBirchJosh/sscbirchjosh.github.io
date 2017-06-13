@@ -1,9 +1,9 @@
 
 TITLE: 
-Profile - 100% Fully Responsive Free HTML5 Bootstrap Template
+Marble - Fully Responsive Free HTML5 template
 
 AUTHOR:
-DESIGNED & DEVELOPED by FreeHTML5.co
+DESIGNED & DEVELOPED by FREEHTML5.co
 
 Website: http://freehtml5.co/
 Twitter: http://twitter.com/fh5co
@@ -27,9 +27,6 @@ http://modernizr.com/
 Google Fonts
 https://www.google.com/fonts/
 
-Google Map
-http://maps.google.com/
-
 Icomoon
 https://icomoon.io/app/
 
@@ -39,18 +36,21 @@ https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
 animate.css
 http://daneden.me/animate
 
-jQuery Waypoint
+jQuery Waypoints
 https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
+
+Demo Images:
+http://pexels.com
+
+Owl Carousel
+http://www.owlcarousel.owlgraphic.com/
 
 Stellar Parallax
 http://markdalgleish.com/projects/stellar.js/
 
-jQuery countTo
-http://www.owlcarousel.owlgraphic.com/
+jQuery counTo
+https://github.com/mhuggins/jquery-countTo
 
-EasyPieChart
-https://github.com/rendro/easy-pie-chart
-
-Demo Images:
-http://unsplash.com
+Google Map
+https://maps.google.com/
 

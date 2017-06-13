@@ -2,6 +2,8 @@
 	
 	'use strict';
 
+
+
 	var isMobile = {
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);
@@ -23,7 +25,6 @@
 		}
 	};
 
-	
 	var fullHeight = function() {
 
 		if ( !isMobile.any() ) {
@@ -32,18 +33,16 @@
 				$('.js-fullheight').css('height', $(window).height());
 			});
 		}
+
 	};
 
-	// Parallax
-	var parallax = function() {
-		$(window).stellar();
-	};
+	// Animations
 
 	var contentWayPoint = function() {
 		var i = 0;
 		$('.animate-box').waypoint( function( direction ) {
 
-			if( direction === 'down' && !$(this.element).hasClass('animated-fast') ) {
+			if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 				
 				i++;
 
@@ -55,20 +54,20 @@
 						setTimeout( function () {
 							var effect = el.data('animate-effect');
 							if ( effect === 'fadeIn') {
-								el.addClass('fadeIn animated-fast');
+								el.addClass('fadeIn animated');
 							} else if ( effect === 'fadeInLeft') {
-								el.addClass('fadeInLeft animated-fast');
+								el.addClass('fadeInLeft animated');
 							} else if ( effect === 'fadeInRight') {
-								el.addClass('fadeInRight animated-fast');
+								el.addClass('fadeInRight animated');
 							} else {
-								el.addClass('fadeInUp animated-fast');
+								el.addClass('fadeInUp animated');
 							}
 
 							el.removeClass('item-animate');
-						},  k * 100, 'easeInOutExpo' );
+						},  k * 200, 'easeInOutExpo' );
 					});
 					
-				}, 50);
+				}, 100);
 				
 			}
 
@@ -76,73 +75,83 @@
 	};
 
 
+	var burgerMenu = function() {
 
-	var goToTop = function() {
-
-		$('.js-gotop').on('click', function(event){
-			
+		$('.js-fh5co-nav-toggle').on('click', function(event){
 			event.preventDefault();
+			var $this = $(this);
 
-			$('html, body').animate({
-				scrollTop: $('html').offset().top
-			}, 500, 'easeInOutExpo');
+			if ($('body').hasClass('offcanvas')) {
+				$this.removeClass('active');
+				$('body').removeClass('offcanvas');	
+			} else {
+				$this.addClass('active');
+				$('body').addClass('offcanvas');	
+			}
+		});
+
+
+
+	};
+
+	// Click outside of offcanvass
+	var mobileMenuOutsideClick = function() {
+
+		$(document).click(function (e) {
+	    var container = $("#fh5co-aside, .js-fh5co-nav-toggle");
+	    if (!container.is(e.target) && container.has(e.target).length === 0) {
+
+	    	if ( $('body').hasClass('offcanvas') ) {
+
+    			$('body').removeClass('offcanvas');
+    			$('.js-fh5co-nav-toggle').removeClass('active');
 			
-			return false;
+	    	}
+	    	
+	    }
 		});
 
 		$(window).scroll(function(){
+			if ( $('body').hasClass('offcanvas') ) {
 
-			var $win = $(window);
-			if ($win.scrollTop() > 200) {
-				$('.js-top').addClass('active');
-			} else {
-				$('.js-top').removeClass('active');
+    			$('body').removeClass('offcanvas');
+    			$('.js-fh5co-nav-toggle').removeClass('active');
+			
+	    	}
+		});
+
+	};
+
+	var sliderMain = function() {
+		
+	  	$('#fh5co-hero .flexslider').flexslider({
+			animation: "fade",
+			slideshowSpeed: 5000,
+			directionNav: true,
+			start: function(){
+				setTimeout(function(){
+					$('.slider-text').removeClass('animated fadeInUp');
+					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
+				}, 500);
+			},
+			before: function(){
+				setTimeout(function(){
+					$('.slider-text').removeClass('animated fadeInUp');
+					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
+				}, 500);
 			}
 
-		});
-	
-	};
-
-	var pieChart = function() {
-		$('.chart').easyPieChart({
-			scaleColor: false,
-			lineWidth: 4,
-			lineCap: 'butt',
-			barColor: '#FF9000',
-			trackColor:	"#f5f5f5",
-			size: 160,
-			animate: 1000
-		});
-	};
-
-	var skillsWayPoint = function() {
-		if ($('#fh5co-skills').length > 0 ) {
-			$('#fh5co-skills').waypoint( function( direction ) {
-										
-				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-					setTimeout( pieChart , 400);					
-					$(this.element).addClass('animated');
-				}
-			} , { offset: '90%' } );
-		}
+	  	});
 
 	};
 
-
-	// Loading page
-	var loaderPage = function() {
-		$(".fh5co-loader").fadeOut("slow");
-	};
-
-	
+	// Document on load.
 	$(function(){
-		contentWayPoint();
-		goToTop();
-		loaderPage();
 		fullHeight();
-		parallax();
-		// pieChart();
-		skillsWayPoint();
+		contentWayPoint();
+		burgerMenu();
+		mobileMenuOutsideClick();
+		sliderMain();
 	});
 
 
