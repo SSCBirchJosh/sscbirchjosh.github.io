@@ -1,56 +1,30 @@
-
-TITLE: 
-Marble - Fully Responsive Free HTML5 template
-
-AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
-
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
+Identity by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-CREDITS:
+Just a fun little profile/card-style template I whipped up during a break between major
+projects. Minimal, responsive, and powered by Skel + Sass. Enjoy :)
 
-Bootstrap
-http://getbootstrap.com/
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
 
-jQuery
-http://jquery.com/
+(* = not included)
 
-jQuery Easing
-http://gsgd.co.uk/sandbox/jquery/easing/
+AJ
+aj@lkn.io | @ajlkn
 
-Modernizr
-http://modernizr.com/
 
-Google Fonts
-https://www.google.com/fonts/
+Credits:
 
-Icomoon
-https://icomoon.io/app/
+	Demo Images:
+		Unsplash (unsplash.com)
 
-Respond JS
-https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
+	Icons:
+		Font Awesome (fortawesome.github.com/Font-Awesome)
 
-animate.css
-http://daneden.me/animate
-
-jQuery Waypoints
-https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
-
-Demo Images:
-http://pexels.com
-
-Owl Carousel
-http://www.owlcarousel.owlgraphic.com/
-
-Stellar Parallax
-http://markdalgleish.com/projects/stellar.js/
-
-jQuery counTo
-https://github.com/mhuggins/jquery-countTo
-
-Google Map
-https://maps.google.com/
-
+	Other:
+		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
+		CSS3 Pie (css3pie.com)
+		Respond.js (j.mp/respondjs)
+		Skel (skel.io)

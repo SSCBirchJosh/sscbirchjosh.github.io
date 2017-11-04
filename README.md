@@ -1,1 +1,0 @@
-# sscbirchjosh.github.io
