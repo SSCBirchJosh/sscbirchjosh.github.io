@@ -1,95 +1,357 @@
-<!DOCTYPE HTML>
-<!--
-	Identity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Josh Birch</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-loading">
+    <head>
+        <title>Josh Birch | Web Design & Development</title>
+        <meta charset="UTF-8">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/indexcss.css"/>
+        <link type="text/css" rel="stylesheet" href="css/fontawesome.min.css"/>
+        <link type="text/css" rel="stylesheet" href="css/aos.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Fauna+One" rel="stylesheet">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="assets/profilepic.jpg" alt="" /></span>
-							<h1>Josh Birch</h1>
-							<p>Undergraduate Student Studying Applied Computing @ Staffordshire University</p>
-						</header>
-						<!--
-						<hr />
-						<h2>Extra Stuff!</h2>
-						<form method="post" action="#">
-							<div class="field">
-								<input type="text" name="name" id="name" placeholder="Name" />
-							</div>
-							<div class="field">
-								<input type="email" name="email" id="email" placeholder="Email" />
-							</div>
-							<div class="field">
-								<div class="select-wrapper">
-									<select name="department" id="department">
-										<option value="">Department</option>
-										<option value="sales">Sales</option>
-										<option value="tech">Tech Support</option>
-										<option value="null">/dev/null</option>
-									</select>
-								</div>
-							</div>
-							<div class="field">
-								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-							</div>
-							<div class="field">
-								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
-							</div>
-							<div class="field">
-								<label>But are you a robot?</label>
-								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
-								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
-							</div>
-							<ul class="actions">
-								<li><a href="#" class="button">Get Started</a></li>
-							</ul>
-						</form>
-						<hr />
-						-->
-						<footer>
-							<ul class="icons">
-								<li><a target="_blank" href="https://www.twitter.com/Joshua_Birch_" class="fa-twitter">Twitter</a></li>
-								<li><a href="https://github.com/joshuabirch" class="fa-github">Instagram</a></li>
-								<li><a target="_blank" href="https://www.linkedin.com/in/josh-b-63369b132/" class="fa-linkedin">Facebook</a></li>
-							</ul>
-						</footer>
-					</section>
+    <body>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script defer src="js/fontawesome-all.min.js"></script>
+        <script type="text/javascript" src="js/aos.js"></script>
+        
+        <!--JS-->
+        <script>
+            $( document ).ready(function(){
+                $(".button-collapse").sideNav();
+            });
+        </script>
+        
+        <script>
+            AOS.init();
+        </script>
+    
+        
+        <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Josh Birch</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
 
-			</div>
+              // Store hash
+              var hash = this.hash;
 
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
 
-	</body>
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
+    
+        <section id="section1">
+            
+            <!--Nav-->
+
+            <nav class="transparent z-depth-0">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo center"><img src="assets/favicon-96x96.png"></a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#section2">About</a></li>
+                        <li><a href="#section3">Portfolio</a></li>
+                        <li><a href="#section4">Services</a></li>
+                        <li><a href="#section5">Contact</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a href="#section2">About</a></li>
+                        <li><a href="#section3">Portfolio</a></li>
+                        <li><a href="#section4">Services</a></li>
+                        <li><a href="#section5">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
+            <div data-aos="fade-down" data-aos-duration="3000" class="intro">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <img class="logo" src="assets/logo.png">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h1 class="title">Web Design & Development</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l6 s12">
+                        <p class="subtitle">Creating affordable business designs and websites for companies</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l6 s12">
+                         <a href="#section2" id="introbutton" class="btn-floating btn-large waves-effect waves-light pulse"><i class="material-icons icon-black">keyboard_arrow_down</i></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+        <section id="section2">
+            
+            <div class="container">
+                
+                <div class="row">
+                    
+                    <div  class="col l12 m12 s12">
+                        
+                        <h1 class="aboutme">About</h1>
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="row">
+                    <div data-aos="zoom-in" class="col l12 m12 s12">
+                        <img class="z-depth-4 cover hide-on-med-and-down" src="assets/cover.png">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    
+                    <div data-aos="fade-right" class="col l4 m12 s12">
+                        <i class="large material-icons">all_inclusive</i>
+                        <h5 class="aboutsubs">Inclusive</h5>
+                        <p>When enquiring about a product or service here, you the consumer have the choice. You can choose an inclusive package, which includes a graphics package for your social media profiles and website. Or a fully responsive and cohesive website </p>
+                    </div>
+                    
+                    <div data-aos="fade-right" class="col l4 m12 s12">
+                        <i class="large material-icons">developer_board</i>
+                        <h5 class="aboutsubs">Development</h5>
+                        <p>When purchasing a product from me, we go through a professional and cohesive process of designing, developing and evaluating while in full communication. Using the agile module of developing, you the consumer, can add input into the design and structure of your packages at any point.</p>
+                    </div>
+                    
+                    <div data-aos="fade-right" class="col l4 m12 s12">
+                        <i class="large material-icons">school</i>
+                        <h5 class="aboutsubs">Study</h5>
+                        <p>While being a freelance web developer, I am also a University student studying Creative Computing Science BSc(Hons). Achieving highly in Web & Database Development, my skills in University truly represent my ability when putting them to a consumer front.</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+            <div class="row">
+                <div data-aos="fade-down" class="col l12 m12 s12">
+                    <a href="#section3" id="aboutbutton" class="btn-floating btn-large waves-effect waves-light pulse"><i class="material-icons icon-white">keyboard_arrow_down</i></a>
+                </div>
+            </div>
+            
+        </section>
+        
+        <section id="section3">
+            
+            <div class="container">
+                
+                <div class="row">
+                    
+                    <div class="col l12 m12 s12">
+                        
+                        <h1 class="aboutme">Portfolio</h1>
+                        
+                        <div data-aos="fade-down">
+                            <p class="portfoliosub">Although small due to me being a junior developer, many projects have already been completed and are a showcase of my development through University and beyond. Take a look at some of these!</p>
+                        </div>
+                    </div>
+                    
+                
+               
+                
+                    <div data-aos="flip-left" class="col l4 m4 s12">
+                
+                                
+                        <img class="responsive-img" src="assets/buzzartstudios1.jpg">
+                                
+                    </div>
+                            
+                            
+             
+                
+         
+                        
+                    
+                    <div data-aos="flip-left" class="col l4 m4 s12">
+            
+                        <img class="responsive-img" src="assets/buzzartstudios2.jpg">
+                                
+                    </div>
+                            
+              
+               
+                    
+                    <div data-aos="flip-left" class="col l4 m4 s12">
+                                
+                        <img class="responsive-img" src="assets/staffsblog.jpg">
+                                
+                    </div>
+                </div>
+                
+            </div>
+                            
+            
+            <div class="row">
+            
+                <div data-aos="fade-down" class="l12 m12 s12">
+                    <a href="#section4" id="introbutton" class="btn-floating btn-large waves-effect waves-light pulse"><i class="material-icons icon-black">keyboard_arrow_down</i></a>
+                </div>
+            </div>
+        
+        </section>
+        
+        <section id="section4">
+            
+            
+            
+                <div class="container">
+
+
+                <h1 class="aboutme">Services</h1>
+
+                <div data-aos="fade-left">
+
+                    <p class="servicessubs">I offer many different services towards self-employed individuals and small companies, if you're in need of a graphics package, new website or a complete re-brand at a competitive price, then look no further. The prices shown are example prices without the calculations that are usually processed when in communications with a client.</p>
+
+                </div>
+
+                    <div class="row">
+
+                        <div data-aos="zoom-in-up" class="col l12 m12 s12">
+                              <table class="striped">
+                                <thead>
+                                  <tr>
+                                      <th>Product</th>
+                                      <th>Example</th>
+                                      <th>Example Price</th>
+                                  </tr>
+                                </thead>
+
+                                <tbody>
+                                  <tr>
+                                    <td>Logo & Covers</td>
+                                    <td>Business Logo and Covers for their representative social media's</td>
+                                    <td>£100</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Website</td>
+                                    <td>One-page website for a local company</td>
+                                    <td>£20/hr</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Graphics package and website</td>
+                                    <td>Complete re-brand for a local company</td>
+                                    <td>£100 + £20/hr</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                        </div>
+                    </div>
+                </div>
+           
+            
+            <div class="row">
+                <div data-aos="fade-down" class="col l12 m12 s12">
+                    <a href="#section5" id="aboutbutton" class="btn-floating btn-large waves-effect waves-light pulse"><i class="material-icons icon-white">keyboard_arrow_down</i></a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="section5">
+        
+            <div class="container">
+                
+                <div class="row">
+                
+                    <div class="col l12 m12 s12">
+            
+                        <h1 class="aboutme">Contact</h1>
+                        
+                        <div data-aos="fade-down">
+                        
+                            <p class="contactsubs">You can contact me through this form, however my social media sites are also a great way to get in touch!</p>
+                            
+                        </div>
+                        
+                        <div data-aos="fade-right" class="row">
+                            <form class="col s12">
+                              <div class="row">
+                                <div class="input-field col s6">
+                                  <input id="first_name" type="text" class="validate">
+                                  <label for="first_name">First Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                  <input id="last_name" type="text" class="validate">
+                                  <label for="last_name">Last Name</label>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="input-field col s12">
+                                  <input id="email" type="email" class="validate">
+                                  <label for="email">Email</label>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                    </div>
+                </div>
+                
+                <div data-aos="flip-left" class="row">
+                    
+                    <div class="col l12 m12 s12">
+                
+                        <button class="center-align btn waves-effect waves-light pulse" type="submit" name="action">Submit<i class="material-icons right">send</i></button>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col l12 s12">
+                        <img src="assets/favicon-96x96.png">
+                </div>
+                </div>
+                <div class="row">
+                    <a href="https://www.facebook.com/Josh-Birch-Web-Design-Development-952530608257151/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/Joshua_Birch_"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/in/birchjosh/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/josh_birch_/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                © 2018 Joshua Birch
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+    
 </html>
