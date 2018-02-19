@@ -189,8 +189,16 @@ form.col.s12 {
     background-color: grey;
 }
 
+.buttonsubmit {
+    padding: 20px;
+}
+
+.contact {
+    padding: 20px;
+}
+
 .page-footer {
-    margin-top: 0px;
+    margin-top: -20px;
     background-color: gray;
     font-family: 'Fauna One', serif;
 }
