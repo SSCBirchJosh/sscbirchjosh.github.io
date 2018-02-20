@@ -18,6 +18,7 @@ html, body {
 
 .nav-wrapper {
     padding: 10px;
+    overflow: hidden;
 }
 
 .brand-logo {
