@@ -39,7 +39,7 @@ html, body {
     
 }
 
-a:after {
+.nav-wrapper > ul > li > a:after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -49,7 +49,7 @@ a:after {
     transition: 0.4s;
 }
 
-a:hover:after {
+.nav-wrapper > ul > li > a:hover:after {
     width: 100%;
 }
 
