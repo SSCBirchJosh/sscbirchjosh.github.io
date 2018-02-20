@@ -121,6 +121,11 @@ i.icon-black {
 i.icon-white {
     color: white;
 }
+
+.card-title {
+    color: #000;
+    font-family: 'Fauna One', serif;
+}
 .card-content {
     color: #000;
     font-family: 'Fauna One', serif;
