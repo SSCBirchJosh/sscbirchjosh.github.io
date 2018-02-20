@@ -1,0 +1,109 @@
+html, body {
+    height: 100%;
+    color: white;
+}
+
+
+
+
+#section1 {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section3 {
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-wrapper {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.brand-logo {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.nav-wrapper {
+    padding: 0px;
+}
+
+.nav-wrapper ul li a {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Fauna One', serif;
+    position: relative;
+    
+}
+
+.nav-wrapper > ul > li > a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid #fff;
+    transition: 0.4s;
+}
+
+.nav-wrapper > ul > li > a:hover:after {
+    width: 100%;
+}
+
+#mobile-demo {
+    background-color: #000;
+}
+
+h1, h2, p {
+    text-align: center;
+    font-family: 'Fauna One', serif;
+}
+
+.page-footer {
+    text-align: center;
+    margin-top: -10px;
+    background-color: gray;
+    font-family: 'Fauna One', serif;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-family: 'Fauna One', serif;
+}
+
+.fa-facebook {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-twitter {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-youtube {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-linkedin {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-instagram {
+    text-decoration: none;
+    color: #fff;
+}
+
+.pageheader {
+    color: #fff;
+    font-family: 'Fauna One', serif;
+    font-weight: 900;
+}
+
+

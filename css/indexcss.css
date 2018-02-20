@@ -264,6 +264,19 @@ form.col.s12 {
     color: #fff;
 }
 
+.footer-copyright a {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-copyright p {
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+}
+
 .pageheader {
     color: #fff;
     font-family: 'Fauna One', serif;
