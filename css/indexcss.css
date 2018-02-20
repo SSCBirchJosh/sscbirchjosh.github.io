@@ -259,6 +259,11 @@ form.col.s12 {
     color: #fff;
 }
 
+.smalllogo {
+    width: 150px;
+    height: 150px;
+}
+
 @media all and (max-width: 600px) {
     .logo {
         width: 100px;
