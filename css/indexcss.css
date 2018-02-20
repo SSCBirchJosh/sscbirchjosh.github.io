@@ -3,9 +3,11 @@ html, body {
 }
 
 
+html, body {
+  overflow-x: hidden;
+}
 body {
-    overflow: hidden;
-    width: 100%;
+  position: relative;
 }
 
 
