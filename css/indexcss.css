@@ -3,7 +3,9 @@ html, body {
 }
 
 
-
+#sidenav-overlay {
+z-index: 996;
+}
 
 #section1 {
     background-image: url("../media/indexbg.jpg");
