@@ -137,22 +137,32 @@ i.icon-white {
     color: white;
 }
 
-.card-title {
-    color: #000;
-    font-family: 'Fauna One', serif;
-    font-weight: 900;
-}
 .card-content {
     color: #000;
-    font-family: 'Fauna One', serif;
-    font-weight: 700;
-}
-
-.card-reveal {
-    color: #000;
+    font-weight: 900;
     font-family: 'Fauna One', serif;
 }
 
+#buzzartstudios2016 {
+    background-color: rgb(56,51,50);
+    font-family: 'Viga', sans-serif;
+}
+
+#buzzartstudios2017 {
+    background-color: lightgreen;
+    font-family: 'Nosifer', cursive;
+}
+
+#staffsblog {
+    background-color: #de1a32;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#buzzartstudios2016button {
+    margin: 15px;
+    color: rgb(56,51,50);
+    background-color: #fff;
+}
 
 .servicessubs {
     text-align: center;
@@ -286,7 +296,7 @@ form.col.s12 {
     }
     
     .card-content .card-title {
-        font-size: 20px;
+        font-size: 16px;
     }
     }
     
