@@ -234,6 +234,10 @@ form.col.s12 {
 }
 
 @media all and (max-width: 600px) {
+    .logo {
+        width: 200px;
+        height: 200px;
+    }
     .title {
         font-size: 36px;
     }
