@@ -125,11 +125,17 @@ i.icon-white {
 .card-title {
     color: #000;
     font-family: 'Fauna One', serif;
+    font-weight: 900;
 }
 .card-content {
     color: #000;
     font-family: 'Fauna One', serif;
     font-weight: 700;
+}
+
+.card-reveal {
+    color: #000;
+    font-family: 'Fauna One', serif;
 }
 
 
@@ -254,6 +260,11 @@ form.col.s12 {
     .responsive-img {
         width: 150px;
         height: 150px;
+    }
+    
+    .card-content .card-title {
+        font-size: 20px;
+    }
     }
     
 }
