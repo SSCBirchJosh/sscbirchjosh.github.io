@@ -26,16 +26,31 @@ html, body {
     margin: 0px;
 }
 
+
+.nav-wrapper {
+    padding: 0px;
+}
+
 .nav-wrapper ul li a {
     color: #fff;
     font-size: 12px;
     font-family: 'Fauna One', serif;
+    position: relative;
     
 }
 
-.nav-wrapper ul li a:hover {
-    background-color: #fff;
-    color: #000;
+a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid #fff;
+    transition: 0.4s;
+}
+
+a:hover:after {
+    width: 100%;
 }
 
 #mobile-demo {
