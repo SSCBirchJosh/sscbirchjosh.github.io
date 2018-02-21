@@ -23,6 +23,7 @@
         
         <link rel="shortcut icon" href="assets/favicon-96x96.png" type="image/x-icon">
         <link rel="icon" href="assets/favicon-96x96.png" type="image/x-icon">
+    </head>
 
     <body>
         <!--Import jQuery before materialize.js-->
@@ -322,58 +323,7 @@
             </div>
         </div>
         
-        <div class="contact" id="section5">
-        
-            <div class="container">
-                
-                <div class="row">
-                
-                    <div class="col l12 m12 s12">
-            
-                        <h1 class="aboutme">Contact</h1>
-                        
-                        <div data-aos="fade-down">
-                        
-                            <p class="contactsubs">The contact form is currently being linked up to a database so I can receive your emails, for now, contact me via Facebook, Twitter, Instagram (links available in the footer) or my email directly joshbirchwebdev@gmail.com</p>
-                            
-                        </div>
-                        <!--
-                        <div data-aos="fade-right" class="row">
-                            <form class="col s12">
-                              <div class="row">
-                                <div class="input-field col s6">
-                                  <input id="first_name" type="text" class="validate">
-                                  <label for="first_name">First Name</label>
-                                </div>
-                                <div class="input-field col s6">
-                                  <input id="last_name" type="text" class="validate">
-                                  <label for="last_name">Last Name</label>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="input-field col s12">
-                                  <input id="email" type="email" class="validate">
-                                  <label for="email">Email</label>
-                                </div>
-                              </div>
-                            </form>
-                          </div>
-                        -->
-                    </div>
-                </div>
-                <!--
-                <div data-aos="flip-left" class="row buttonsubmit">
-                    
-                    <div class="col l12 m12 s12">
-                
-                        <button class="center-align btn waves-effect waves-light pulse" type="submit" name="action">Submit<i class="material-icons right">send</i></button>
-                    
-                    </div>
-                   
-                </div>
-             -->
-            </div>
-        </div>
+
         
         <footer class="page-footer">
             <div class="container">
