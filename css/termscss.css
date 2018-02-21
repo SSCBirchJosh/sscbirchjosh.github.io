@@ -12,9 +12,12 @@ html, body {
     background-size: cover;
 }
 
-#section3 {
-    background-color: #000;
-    color: #fff;
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
 }
 
 .nav-wrapper {
