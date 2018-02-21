@@ -390,7 +390,7 @@
                     <a href="https://www.instagram.com/josh_birch_/"><i class="fab fa-instagram"></i></a>
                 </div>
                 <div class="row">
-                    <a target="_blank" class="tc" href="termsfeed-terms-conditions-html-english.html">Terms and Conditions</a>
+                    <a target="_blank" class="tc" href="tandc.html">Terms and Conditions</a>
                 </div>
             </div>
             <div class="footer-copyright">
