@@ -4,8 +4,16 @@ body {
     background-position: center;
 }
 
+.nav-wrapper {
+    padding: 25px;
+}
+
 .nav-wrapper ul li a {
     font-family: 'Fauna One', serif;
+}
+
+.row {
+    align-content: center;
 }
 
 .page-footer {
