@@ -2,10 +2,7 @@ body {
     background-image: url(../assets/templatebg.jpeg);#
     background-size: cover;
     background-position: center;
-}
-
-.nav-wrapper {
-    padding: 25px;
+    background-repeat: no-repeat;
 }
 
 .nav-wrapper ul li a {
@@ -13,7 +10,7 @@ body {
 }
 
 .row {
-    align-content: center;
+    text-align: center;
 }
 
 .page-footer {
