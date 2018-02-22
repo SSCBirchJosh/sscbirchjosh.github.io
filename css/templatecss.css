@@ -77,3 +77,10 @@ nav {
     font-family: 'Fauna One', serif;
     font-weight: 900;
 }
+
+
+@media all and (max-width: 600px) {
+    .brand-logo {
+        padding: 12px;
+    }
+}
