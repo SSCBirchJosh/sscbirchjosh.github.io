@@ -1,0 +1,159 @@
+html, body {
+    height: 100%;
+}
+
+
+nav {
+    position: absolute;
+    z-index: 999;
+}
+#section1 {
+    background: #404040;
+}
+
+.nav-wrapper {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.brand-logo {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.nav-wrapper {
+    padding: 0px;
+}
+
+.nav-wrapper ul li a {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Fauna One', serif;
+    position: relative;
+    
+}
+
+.nav-wrapper > ul > li > a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid #fff;
+    transition: 0.4s;
+}
+
+.nav-wrapper > ul > li > a:hover:after {
+    width: 100%;
+}
+
+#mobile-demo {
+    background-color: #000;
+}
+
+.intro {
+    padding-top: 75px;
+    text-align: center;
+    font-family: 'Fauna One', serif;
+    color: #fff;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.templatesubs {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.card-content h5 {
+    font-family: 'Fauna One', serif;
+    font-weight: 900;
+}
+
+.card-content p {
+    font-family: 'Fauna One', serif;
+    line-height: 1.6;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-action {
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Fauna One', serif;
+    background-color: #404040;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.page-footer {
+    margin-top: -10px;
+    background-color: gray;
+    font-family: 'Fauna One', serif;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-family: 'Fauna One', serif;
+}
+
+.fa-facebook {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-twitter {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-youtube {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-linkedin {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-instagram {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-paypal {
+    text-decoration: none;
+    color: #fff;
+}
+
+.tc {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.tc:hover {
+    opacity: 0.4;
+}
+
+.pageheader {
+    color: #fff;
+    font-family: 'Fauna One', serif;
+    font-weight: 900;
+}
+
+.row {
+    text-align: center;
+}
+
