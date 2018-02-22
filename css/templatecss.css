@@ -1,5 +1,9 @@
+html {
+    height: 100%;
+}
+
 body {
-    background-image: url(../assets/templatebg.jpeg);#
+    background-image: url(../assets/templatebg.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
