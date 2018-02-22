@@ -3,3 +3,61 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+
+.page-footer {
+    margin-top: -10px;
+    background-color: gray;
+    font-family: 'Fauna One', serif;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-family: 'Fauna One', serif;
+}
+
+.fa-facebook {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-twitter {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-youtube {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-linkedin {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-instagram {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-paypal {
+    text-decoration: none;
+    color: #fff;
+}
+
+.tc {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.tc:hover {
+    opacity: 0.4;
+}
+
+.pageheader {
+    color: #fff;
+    font-family: 'Fauna One', serif;
+    font-weight: 900;
+}
