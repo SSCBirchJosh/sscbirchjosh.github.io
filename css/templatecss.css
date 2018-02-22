@@ -20,7 +20,8 @@ nav {
     z-index: 2;
 }
 
-#appView {
+.powr-social-feed {
+    margin: 50px;
     padding: 75px;
 }
 
