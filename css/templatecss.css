@@ -1,27 +1,18 @@
 html, body {
-    height: 100%;
-}
-
-nav {
-    position: absolute;
-    z-index: 999;
-}
-
-.nav-wrapper ul li a {
-    font-family: 'Fauna One', serif;
-}
-
-#section1 {
     background-image: url(../assets/templatebg.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    z-index: 2;
 }
 
-.container {
-    padding: 75px;
+
+nav {
+    border-bottom: 2px solid #fff;
+}
+
+.nav-wrapper ul li a {
+    font-family: 'Fauna One', serif;
 }
 
 
