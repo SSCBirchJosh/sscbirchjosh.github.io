@@ -4,6 +4,7 @@ html, body {
 
 nav {
     position: absolute;
+    z-index: 999;
 }
 
 .nav-wrapper ul li a {
@@ -16,6 +17,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    z-index: 2;
 }
 
 
