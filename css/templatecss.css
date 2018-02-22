@@ -4,6 +4,9 @@ body {
     background-position: center;
 }
 
+.nav-wrapper ul li a {
+    font-family: 'Fauna One', serif;
+}
 
 .page-footer {
     margin-top: -10px;
