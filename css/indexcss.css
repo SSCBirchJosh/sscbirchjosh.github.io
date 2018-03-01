@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    font-family: 'Yantramanav', sans-serif;
 }
 
 
@@ -8,7 +9,7 @@ nav {
     z-index: 999;
 }
 #section1 {
-    background-image: url("../media/indexbg.jpg");
+    background-image: url("../assets/indexbg.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -29,40 +30,39 @@ nav {
     margin: 0px;
 }
 
-
 .nav-wrapper {
     padding: 0px;
 }
 
 .nav-wrapper ul li a {
-    color: #fff;
-    font-size: 12px;
-    font-family: 'Fauna One', serif;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Yantramanav', sans-serif;
     position: relative;
+    font-weight: bold;
+    margin-right: 30px;
     
 }
 
-.nav-wrapper > ul > li > a:after {
+.nav-wrapper > .container > ul > li > a:after {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
     width: 0%;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #000;
     transition: 0.4s;
 }
 
-.nav-wrapper > ul > li > a:hover:after {
+.nav-wrapper > .container > ul > li > a:hover:after {
     width: 100%;
 }
 
-#mobile-demo {
-    background-color: #000;
-}
 
 
 .intro {
-    padding-top: 75px;
+    padding-left: 30px;
+    padding-top: 100px;
     height: 100%;
     align-items: center;
     justify-content: center;
@@ -71,30 +71,31 @@ nav {
     z-index: 2;
 }
 
+
+
 .logo {
     padding: 0px;
     margin: 0px;
 }
 
 .title {
-    font-family: 'Fauna One', serif;
-    color: white;
-}
-
-.subtitle {
-    color: white;
-    font-family: 'Fauna One', serif;
-    font-size: 20px;
-}
-
-#introbutton {
-    margin: 10px;
-    background-color: #fff;
+    font-family: 'Yantramanav', sans-serif;
     color: #000;
 }
 
+.subtitle {
+    color: #000;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+#introbutton {
+    opacity: 1;
+    margin: 10px;
+    color: #fff;
+}
+
 #introbutton:hover {
-    background-color: dimgray;
+    opacity: 0.5;
 }
 
 #introbutton:hover {
@@ -111,7 +112,7 @@ i.icon-black {
 
 .aboutme {
     text-align: center;
-    font-family: 'Fauna One', serif;
+    font-family: 'Yantramanav', sans-serif;
     font-weight: 900;
 }
 
@@ -125,17 +126,18 @@ i.icon-black {
 }
 
 .aboutsubs {
-    font-family: 'Fauna One', serif;
+    font-family: 'Yantramanav', sans-serif;
     font-weight: 900;
 }
 
-#aboutbutton {
-    background-color: #000;
+#aboutbutton:hover {
+    opacity: 0.4;
 }
 
-.portfoliosub {
-    font-size: 20px;
+blockquote {
+    border-left: 5px solid #000;
 }
+
 
 i.icon-white {
     color: white;
@@ -144,7 +146,7 @@ i.icon-white {
 .card-content {
     color: #000;
     font-weight: 900;
-    font-family: 'Fauna One', serif;
+    font-family: 'Yantramanav', sans-serif;
 }
 
 #buzzartstudios2016 {
@@ -164,8 +166,8 @@ i.icon-white {
 
 
 .servicessubs {
+    font-family: 'Yantramanav', sans-serif;
     text-align: center;
-    font-size: 20px;
 }
 
 #section5 {
@@ -215,6 +217,15 @@ form.col.s12 {
  color: #000;
 }
 
+
+.card-image {
+    opacity: 1.0;
+}
+
+.card-image:hover {
+    opacity: 0.5;
+}
+
 .btn {
     background-color: #fff;
     color: #000;
@@ -233,7 +244,7 @@ form.col.s12 {
 }
 
 .templates {
-    font-family: 'Fauna One', serif;
+    font-family: 'Yantramanav', sans-serif;
     font-weight: 900;
     color: white;
     text-align: center;
@@ -242,8 +253,7 @@ form.col.s12 {
 }
 
 .templatesubs {
-    font-family: 'Fauna One', serif;
-    font-size: 20px;
+    font-family: 'Yantramanav', sans-serif;
     text-align: center;
 }
 
@@ -262,49 +272,50 @@ form.col.s12 {
 
 .page-footer {
     margin-top: -20px;
-    background-color: gray;
-    font-family: 'Fauna One', serif;
+    background-color: white;
+    font-family: 'Yantramanav', sans-serif;
 }
 
-.footer-copyright {
+.footer-copyright > .container > p {
     text-align: center;
-    font-family: 'Fauna One', serif;
+    font-family: 'Yantramanav', sans-serif;
+    color: #000;
 }
 
 .fa-facebook {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .fa-twitter {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .fa-youtube {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .fa-linkedin {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .fa-instagram {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .fa-paypal {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .tc {
     text-align: center;
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .tc:hover {
@@ -313,7 +324,7 @@ form.col.s12 {
 
 .pageheader {
     color: #fff;
-    font-family: 'Fauna One', serif;
+    font-family: 'Yantramanav', sans-serif;
     font-weight: 900;
 }
 
@@ -322,6 +333,7 @@ form.col.s12 {
 
 
 @media all and (max-width: 600px) {
+    /*
     .logo {
         width: 100px;
         height: 100px;
@@ -342,6 +354,10 @@ form.col.s12 {
     .card-content .card-title {
         font-size: 16px;
     }
+    */
+    .intro {
+        padding-top: 0px;
+        padding-left: 0px;
     }
     
 }
