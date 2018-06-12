@@ -40,7 +40,7 @@ nav {
     font-family: 'Yantramanav', sans-serif;
     position: relative;
     font-weight: bold;
-    margin-right: 30px;
+    margin-right: 25px;
     
 }
 
@@ -81,6 +81,7 @@ nav {
 .title {
     font-family: 'Yantramanav', sans-serif;
     color: #000;
+    font-size: 56px;
 }
 
 .subtitle {
