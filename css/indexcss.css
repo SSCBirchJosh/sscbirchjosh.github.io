@@ -4,6 +4,7 @@ html, body {
 }
 
 
+
 nav {
     position: absolute;
     z-index: 999;
@@ -78,8 +79,10 @@ nav {
     margin: 0px;
 }
 
+@font-face {font-family: Quartzo; src: url('QUARTZO.ttf');}
+
 .title {
-    font-family: 'Yantramanav', sans-serif;
+    font-family: Quartzo;
     color: #000;
     font-size: 56px;
 }
