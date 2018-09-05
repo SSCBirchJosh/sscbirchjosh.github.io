@@ -10,10 +10,11 @@ nav {
     z-index: 999;
 }
 #section1 {
-    background-image: url("../assets/indexbg.jpeg");
+    background-image: url("../assets/70s-colors-colours-46244.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    filter: brightness(50%);
 }
 
 #section3 {
@@ -26,11 +27,6 @@ nav {
     overflow: hidden;
 }
 
-.brand-logo {
-    padding: 0px;
-    margin: 0px;
-}
-
 .nav-wrapper {
     padding: 0px;
 }
@@ -41,7 +37,7 @@ nav {
     font-family: 'Yantramanav', sans-serif;
     position: relative;
     font-weight: bold;
-    margin-right: 25px;
+    margin-right: 1px;
     
 }
 
@@ -79,17 +75,18 @@ nav {
     margin: 0px;
 }
 
-@font-face {font-family: Quartzo; src: url('QUARTZO.ttf');}
 
 .title {
-    font-family: Quartzo;
+    font-family: 'Yantramanav', sans-serif;
     color: #000;
-    font-size: 56px;
+    font-size: 60px;
+    font-weight: 900;
 }
 
 .subtitle {
     color: #000;
     font-family: 'Yantramanav', sans-serif;
+    
 }
 
 #introbutton {
