@@ -1,397 +1,47 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <title>Josh Birch | Web Design & Development</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="Providing self-employed personnel and local companies a chance to expand and build their online profile. Graphics packages and website development are both available to any valued consumer.">
-        <meta name="author" content="Joshua Birch">
-        <meta name="keywords" content="web design, web development, Josh Birch | Web Design & Development, graphic design, great wyrley, walsall, programming">
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!--Import materialize.css-->
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-        <link type="text/css" rel="stylesheet" href="css/indexcss.css"/>
-        <link type="text/css" rel="stylesheet" href="css/fontawesome.min.css"/>
-        <link type="text/css" rel="stylesheet" href="css/aos.css"/>
-        <link type="text/css" rel="stylesheet" href="css/hover-min.css";/>
-        <link href="https://fonts.googleapis.com/css?family=Fauna+One" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet">
+	<head>
+		<title>Aerial by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-        <!--Let browser know website is optimized for mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        
-        <link rel="shortcut icon" href="assets/favicon-96x96.png" type="image/x-icon">
-        <link rel="icon" href="assets/favicon-96x96.png" type="image/x-icon">
-    </head>
+				<!-- Header -->
+					<header id="header">
+						<h1>Josh Birch</h1>
+						<p>Staffordshire University &nbsp;&bull;&nbsp; Web Development &nbsp;&bull;&nbsp; Networking &nbsp;&bull;&nbsp; iOS App Development</p>
+						<nav>
+							<ul>
+								<li><a href="https://twitter.com/Joshua_Birch_" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                                <li><a href="https://www.linkedin.com/in/birchjosh/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/joshuabirch" class="icon fa-github"><span class="label">Github</span></a></li>
+							</ul>
+						</nav>
+					</header>
 
-    <body>
-        <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-        <script defer src="js/fontawesome-all.min.js"></script>
-        <script type="text/javascript" src="js/aos.js"></script>
-        
-        <!--JS-->
-        <script>
-            $( document ).ready(function(){
-                $(".button-collapse").sideNav();
-            });
-        </script>
-        
-        <script>
-            AOS.init();
-        </script>
-    
-        
-        <script>
-        $(document).ready(function(){
-          // Add smooth scrolling to all links
-          $("a").on('click', function(event) {
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy;Joshua Birch 2018 Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer>
 
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-              // Prevent default anchor click behavior
-              event.preventDefault();
-
-              // Store hash
-              var hash = this.hash;
-
-              // Using jQuery's animate() method to add smooth page scroll
-              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-              $('html, body').animate({
-                scrollTop: $(hash).offset().top
-              }, 800, function(){
-
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-              });
-            } // End if
-          });
-        });
-        </script>
-    
-         
-            
-            <!--Nav-->
-            
-                <nav class="transparent z-depth-0">
-                    <div class="nav-wrapper">
-                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                        <div class="container">
-                            <ul class="left hide-on-med-and-down">
-                                <li><a href="#section2">About</a></li>
-                                <li><a href="#section3">Portfolio</a></li>
-                                <li><a href="#section4">Services</a></li>
-                            </ul>
-                        </div>
-                        <ul class="side-nav" id="mobile-demo">
-                            <li><a href="#section2">About</a></li>
-                            <li><a href="#section3">Portfolio</a></li>
-                            <li><a href="#section4">Services</a></li>
-                        </ul>
-                    </div>
-                </nav>
-
-        <div class="intro" id="section1"> 
-    
-            <div data-aos="fade-down" data-aos-duration="3000" class="intro">
-                <div class="row">
-                    <div class="col l6 s12">
-                        <img class="responsive-img intrologo" src="assets/logo.png">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col l6 s12">
-                        <h1 class="title">Web Design & Development</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col l6 s12">
-                        <p class="subtitle">Creating affordable business designs and websites for companies</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col l6 s12">
-                         <a href="#section2" id="introbutton"><i class="medium material-icons icon-black hvr-sink">keyboard_arrow_down</i></a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        
-        <div class="about" id="section2">
-            
-            <div class="container">
-                
-                <div class="row">
-                    
-                    <div class="col l12 m12 s12">
-                        
-                        <h1 class="aboutme">About</h1>
-                        <blockquote class="flow-text">The names Josh Birch, I'm 18 and I operate within the Walsall region, United Kingdom. I'm a dedicated individual, determined to deliver quality and cheap websites for any self-employed individual or small company. </blockquote>
-                        
-                    </div>
-                    
-                </div>
-                
-               
-                
-                <div class="row">
-                    
-                    <div data-aos="fade-right" class="col l4 m12 s12">
-                        <i class="large material-icons">all_inclusive</i>
-                        <h5 class="aboutsubs">Inclusive</h5>
-                        <p class="flow-text">When enquiring about a product or service here, you the consumer have the choice. You can choose an inclusive package, which includes a graphics package for your social media profiles and website. Or a fully responsive and cohesive website </p>
-                    </div>
-                    
-                    <div data-aos="fade-right" class="col l4 m12 s12">
-                        <i class="large material-icons">developer_board</i>
-                        <h5 class="aboutsubs">Development</h5>
-                        <p class="flow-text">When purchasing a product from me, we go through a professional and cohesive process of designing, developing and evaluating while in full communication. Using the agile module of developing, you the consumer, can add input into the design and structure of your packages at any point.</p>
-                    </div>
-                    
-                    <div data-aos="fade-right" class="col l4 m12 s12">
-                        <i class="large material-icons">school</i>
-                        <h5 class="aboutsubs">Study</h5>
-                        <p class="flow-text">While being a freelance web developer, I am also a University student studying Creative Computing Science BSc(Hons). Achieving highly in Web & Database Development, my skills in University truly represent my ability when putting them to a consumer front.</p>
-                    </div>
-                </div>
-                
-                
-            </div>
-            
-            <div class="row">
-                <div class="col l12 m12 s12">
-                    <a href="#section3" id="aboutbutton"><i class="medium material-icons icon-black hvr-sink">keyboard_arrow_down</i></a>
-                </div>
-            </div>
-            
-        </div>
-        
-        <div class="portfolio" id="section3">
-            
-            <div class="container">
-                
-                <div class="row">
-                    
-                    <div class="col l12 m12 s12">
-                        
-                        <h1 class="aboutme">Portfolio</h1>
-                        
-                        <div data-aos="fade-down">
-                            <p class="portfoliosub flow-text">Although small due to me being a junior developer, many projects have already been completed and are a showcase of my development through University and beyond. Take a look at some of these!</p>
-                        </div>
-                    </div>
-                    
-                
-               
-                
-                    <div data-aos="flip-left" class="col l6 m6 s12">
-                
-                                
-                        <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="assets/buzzartstudios1.jpg">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator">Buzzart Studios 2016<i class="material-icons right">send</i></span>
-                            </div>
-                            <div id="buzzartstudios2016" class="card-reveal">
-                                <span class="card-title">Buzzart Studios 2016<i class="material-icons right">close</i></span>
-                                <p>A Level 3 College project in which a simple multi-page html website had to be made based on a fictional company, check it out here!</p>
-                                <a target="_blank" href="https://joshuabirch.github.io/buzzartstudios/index.html" id="buzzart2016button" class="center-align btn waves-effect waves-light pulse">Go!<i class="material-icons right">send</i></a>
-                            </div>
-                        </div>
-                                
-                    </div>
-                            
-                            
-             
-                
-         
-                        
-                    
-                    <div data-aos="flip-left" class="col l6 m6 s12">
-            
-                        <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="assets/buzzartstudios2.jpg">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator">Buzzart Studios 2017<i class="material-icons right">send</i></span>
-                            </div>
-                            <div id="buzzartstudios2017"  class="card-reveal">
-                                <span class="card-title">Buzzart Studios 2017<i class="material-icons right">close</i></span>
-                                <p>A University project in which I had to expand on my initial website and add PHP elements in order to store information into a database. Check it out here!</p>
-                                <a target="_blank" href="http://buzzartstudios.gwiddle.co.uk/" id="buzzart2017button" class="center-align btn waves-effect waves-light pulse">Go!<i class="material-icons right">send</i></a>
-                            </div>
-                        </div>
-                                
-                    </div>
-                            
-              
-               
-                    
-                    <!--<div data-aos="flip-left" class="col l4 m4 s12">
-                                
-                        <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="assets/staffsblog.jpg">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator">Staffs Blog 2018<i class="material-icons right">send</i></span>
-                            </div>
-                            <div id="staffsblog" class="card-reveal">
-                                <span class="card-title">Staffs Blog 2018 (Ongoing)<i class="material-icons right">close</i></span>
-                                <p>A University project working with a project manager to create the managers desired website. Check it out here!</p>
-                               <a target="_blank" href="https://umangrui.github.io/Project/" id="staffsblogbutton" class="center-align btn waves-effect waves-light pulse">Go!<i class="material-icons right">send</i></a>
-                            </div>
-                        </div>
-                                
-                    </div>-->
-                </div>
-                
-            </div>
-                            
-            
-            <div class="row">
-            
-                <div class="l12 m12 s12">
-                    <a href="#section4" id="aboutbutton"><i class="medium material-icons icon-white hvr-sink">keyboard_arrow_down</i></a>
-                </div>
-            </div>
-        
-        </div>
-        
-        <div class="services" id="section4">
-            
-            
-            
-                <div class="container">
-
-
-                <h1 class="aboutme">Services</h1>
-
-                <div data-aos="fade-left">
-
-                    <p class="servicessubs flow-text">I offer many different services towards self-employed individuals and small companies, if you're in need of a graphics package, new website or a complete re-brand at a competitive price, then look no further. The prices shown are example prices without the calculations that are usually processed when in communications with a client.</p>
-
-                </div>
-
-                    <div class="row">
-
-                        <div data-aos="zoom-in-up" class="col l12 m12 s12">
-                              <table class="striped flow-text">
-                                <thead>
-                                  <tr>
-                                      <th>Product</th>
-                                      <th>Example</th>
-                                      <th>Example Price</th>
-                                  </tr>
-                                </thead>
-
-                                <tbody>
-                                  <tr>
-                                    <td>Logo & Covers</td>
-                                    <td>Business Logo and Covers for their representative social media's</td>
-                                    <td>£100</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Website</td>
-                                    <td>One-page website for a local company</td>
-                                    <td>£20/hr</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Graphics package and website</td>
-                                    <td>Complete re-brand for a local company</td>
-                                    <td>£100 + £20/hr</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Ecommerce using Shopify</td>
-                                    <td>Selling your items including fulfilling orders and accepting payments</td>
-                                    <td>£20/hr PLUS the monthly charge to host the ecommerce (paid by you every month)</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Social Media Training</td>
-                                    <td>How to professionally run your social media to maximise local and global recognition</td>
-                                    <td>FREE</td>
-                                  </tr>  
-                                </tbody>
-                              </table>
-                        </div>
-                    </div>
-                </div>
-            
-            <div class="row">
-            
-                <div class="l12 m12 s12">
-                    <a href="#section5" id="aboutbutton"><i class="medium material-icons icon-black hvr-sink">keyboard_arrow_down</i></a>
-                </div>
-            </div>
-           
-            
-        </div>
-        
-        <!--<div class="template" id="section5">
-            <div class="container">
-                <div class="row">
-                    <h1 class="templates">Templates</h1>
-                </div>
-                <div class="row">
-                    <p data-aos="fade-left" class="templatesubs flow-text">Take a look at some templates that are ready to be customised to your desire. Please bare in mind that these templates are a set price due to development already being complete. Get in contact over changes.</p>
-                </div>
-                
-                <div class="row">
-                    <div class="col l4 m12 s12 offset-l4">
-                        <div data-aos="flip-left" class="card">
-                            <div class="card-image">
-                                <a target="_blank" href="template.html"><img src="assets/template1.jpg"></a>
-                            </div>
-                            <div class="card-content">
-                                <h5 class="flow-text">Social Media Feed Template</h5>
-                                <p class="flow-text">This template offers a feed of various social media feeds aimed at photographers, social media influencers and artists.</p>
-                            </div>
-                            <div class="card-action">
-                                <a id="pricebutton" class="btn waves-effect z-depth-0">£40</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>-->
-        
-
-        
-        <footer class="page-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col l12 s12">
-                        <img src="assets/avatartranssmall.png">
-                    </div>
-                </div>
-                <div class="row">
-                    <a href="https://www.facebook.com/Josh-Birch-Web-Design-Development-952530608257151/"><i class="fab fa-facebook"></i></a>
-                    <a href="https://twitter.com/Joshua_Birch_"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.youtube.com/channel/UCcoZHjmockxg6HBQdDj712w"><i class="fab fa-youtube"></i></a>
-                    <a href="https://www.linkedin.com/in/birchjosh/"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/josh_birch_/"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-paypal"></i></a>
-                </div>
-                <div class="row">
-                    <a target="_blank" class="tc" href="tandc.html">T&C's and Refund Policy</a>
-                </div>
-            </div>
-            <div class="footer-copyright">
-                <div class="container">
-                <p>© 2018 Joshua Birch</p>
-                </div>
-            </div>
-            
-        </footer>
-        
-    </body>
-    
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>
